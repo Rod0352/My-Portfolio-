@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size:auto;
+    background-position: center;
+    background-image: url(../assets/mohammad-alizade-S5uV7ro4UPY-unsplash.jpg);
+}
+/* header and nav bar */
+header{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    margin: 50px;
+    border-bottom: 1px solid #fff;
+
+}
+header h1{
+    font-size: 95px;
+    font-style: italic;
+    color: white;
+}
+header div ul a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+
+}
+a:hover{
+    text-decoration: underline;
+    font-weight:bolder
+}
+/* bio */
+.bio{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+    justify-content:center;
+    padding: 30px 100px;
+    margin: 60px;
+    line-height: 1.5;
+}
+.bio h2{
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+
