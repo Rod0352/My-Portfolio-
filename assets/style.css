@@ -101,6 +101,7 @@ width: 38%;
 }
 .work img:hover{
     border: 3px solid yellow;
+    width: 45%;
 }
 .info{
     margin: 3%;
