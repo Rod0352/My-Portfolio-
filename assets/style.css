@@ -51,6 +51,7 @@ a:hover{
 }
 .About p{
     padding: 20px;
+    font-size: 18px;
 }
 /* bio */
 .my-bio{
@@ -82,4 +83,33 @@ a:hover{
 }
 .bio h3{
     padding: 10px;
+}
+/* work section */
+.work{
+    margin: 20px ;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap; 
+    /* /* flex-direction: row-reverse; */
+    /* align-items: center;  */
+    justify-content:center;
+    text-align: center;
+}
+.work img{
+width: 38%;
+}
+.work img:hover{
+    border: 3px solid yellow;
+}
+.info{
+    margin: 3%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.info h3{
+    font-size: 45px;
+    font-style: italic;
+    padding-bottom: 20px;
 }
